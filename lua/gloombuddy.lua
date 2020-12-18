@@ -198,6 +198,13 @@ Group.new("LspDiagnosticsDefaultWarning", colors.blue_1)
 Group.new("LspDiagnosticsDefaultInformation", c.fg_2)
 -- }}
 
+---- Telescope {{
+Group.new("TelescopeBorder", colors.bg_4)
+Group.new("TelescopeNormal", c.fg_1)
+Group.new("TelescopeSelection", colors.none, colors.bg_1)
+Group.new("TelescopeMatching", colors.yellow_1)
+-- }}
+
 ---- Diff {{
 Group.new('DiffAdd',                    colors.green_1,     colors.bg_4,       none)
 Group.new('DiffChange',                 colors.blue_2,      colors.fg_4,       none)
