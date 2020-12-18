@@ -191,6 +191,13 @@ Group.new('TSVariable',                 colors.purple_1,    colors.none,        
 Group.new('TSVariableBuiltin',          colors.blue_1,      colors.none,              none)
 -- }}
 
+---- LSP {{
+Group.new("LspDiagnosticsDefaultHint", colors.green_2)
+Group.new("LspDiagnosticsDefaultError", colors.red_4)
+Group.new("LspDiagnosticsDefaultWarning", colors.blue_1)
+Group.new("LspDiagnosticsDefaultInformation", c.fg_2)
+-- }}
+
 ---- Diff {{
 Group.new('DiffAdd',                    colors.green_1,     colors.bg_4,       none)
 Group.new('DiffChange',                 colors.blue_2,      colors.fg_4,       none)
