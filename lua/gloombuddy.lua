@@ -46,6 +46,9 @@ Color.new('purple_2',     '#6d6db5')
 Color.new('yellow_1',   '#ffdb7d')
 Color.new('yellow_2',   '#e5c07b')
 
+-- Greys
+Color.new('grey_1',     '#bbbbbb')
+
 ---------------------
 -- HIGHLIGHTS
 ---------------------
@@ -170,9 +173,9 @@ Group.new('TSOperator',                 colors.fg_2,        colors.none,        
 Group.new('TSParameter',                colors.red_1,       colors.none,              none)
 Group.new('TSParameterReference',       colors.red_1,       colors.none,              none)
 Group.new('TSProperty',                 colors.red_1,       colors.none,              none)
-Group.new('TSPunctBracket',             colors.fg_2,        colors.none,              none)
-Group.new('TSPunctDelimiter',           colors.fg_2,        colors.none,              none)
-Group.new('TSPunctSpecial',             colors.fg_2,        colors.none,              none)
+Group.new('TSPunctBracket',             colors.grey_1,        colors.none,              none)
+Group.new('TSPunctDelimiter',           colors.grey_1,        colors.none,              none)
+Group.new('TSPunctSpecial',             colors.grey_1,        colors.none,              none)
 Group.new('TSRepeat',                   colors.blue_1,      colors.none,              none)
 Group.new('TSString',                   colors.green_2,     colors.none,              none)
 Group.new('TSStringEscape',             colors.green_2,     colors.none,              none)
