@@ -219,3 +219,7 @@ Group.new('DiffNewFile',                colors.green_1,     colors.fg_4,       n
 Group.new('DiffLine',                   colors.fg_2,        colors.fg_4,       none)
 Group.new('DiffRemoved',                colors.red_4,       colors.fg_4,       none)
 ---- }}
+
+---- Typescript {{
+Group.new("typescriptdecorators",       colors.green_3, colors.none, none)
+---- }}
