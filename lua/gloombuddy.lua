@@ -198,12 +198,12 @@ Group.new('TSVariableBuiltin',          colors.blue_1,      colors.none,        
 Group.new("LspDiagnosticsDefaultHint", colors.green_2)
 Group.new("LspDiagnosticsDefaultError", colors.red_4)
 Group.new("LspDiagnosticsDefaultWarning", colors.blue_1)
-Group.new("LspDiagnosticsDefaultInformation", c.fg_2)
+Group.new("LspDiagnosticsDefaultInformation", colors.fg_2)
 -- }}
 
 ---- Telescope {{
 Group.new("TelescopeBorder", colors.bg_4)
-Group.new("TelescopeNormal", c.fg_1)
+Group.new("TelescopeNormal", colors.fg_1)
 Group.new("TelescopeSelection", colors.none, colors.bg_1)
 Group.new("TelescopeMatching", colors.yellow_1)
 -- }}
